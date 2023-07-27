@@ -7,4 +7,4 @@ AND sls.salesId IS NULL;
 
 GO;
 
-select * from customer;
+select * from model;
