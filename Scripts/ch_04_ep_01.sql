@@ -3,9 +3,5 @@ select inv.modelId, sls.employeeId, COUNT(mdl.model), mdl.model,
 FROM sales sls
 INNER JOIN inventory inv
   ON sls.inventoryId = inv.inventoryId
-INNER JOIN model mdl
-  ON inv.modelId = mdl.modelId
 GROUP BY sls.employeeId;
-
-
 
