@@ -11,5 +11,7 @@ select soldYear, soldMonth, salesAmount,
 FROM cte_sales
 ORDER BY soldYear, soldMonth;
 
+SELECT * FROM sales;
+
 
 
